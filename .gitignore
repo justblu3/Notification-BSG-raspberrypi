@@ -1,10 +1,11 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+nano .gitignore
+```
 
-# Virtual environments
-.venv
+Add these lines:
+```
+bot_config.json
+bsg_products.json
+.venv/
+__pycache__/
+*.pyc
+*.log

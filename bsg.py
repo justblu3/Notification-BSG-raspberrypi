@@ -5,9 +5,9 @@ Continuously monitors products and sends alerts via Telegram bot
 """
 
 """
-source /Users/balcdragos/BSGMAG/.venv/bin/activate
-python3 bsg.py
+source /Users/balcdragos/BSGMAG/venv/bin/activate
 """
+
 
 import json
 import os
@@ -45,8 +45,8 @@ class BotConfig:
     def create_config_file():
         """Create a template config file"""
         config = {
-            "telegram_bot_token": "YOUR_BOT_TOKEN_HERE",
-            "telegram_chat_id": "YOUR_CHAT_ID_HERE",
+            "telegram_bot_token": "",
+            "telegram_chat_id": "",
             "check_interval_seconds": 300,
             "notifications_enabled": True
         }
