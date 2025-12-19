@@ -4,10 +4,6 @@ BSG Magazine Product Tracker with Telegram Notifications
 Continuously monitors products and sends alerts via Telegram bot
 """
 
-"""
-source /Users/balcdragos/BSGMAG/venv/bin/activate
-"""
-
 
 import json
 import os
