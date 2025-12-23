@@ -19,7 +19,7 @@ from bs4 import BeautifulSoup
 
 
 class Config:
-    """Configuration settings for the scraper and bot"""
+    """Config settings for the scraper and bot"""
     BASE_URL = "https://bsgmag.ro/catalog/produse-recente"
     STORAGE_FILE = "bsg_products.json"
     CONFIG_FILE = "bot_config.json"
